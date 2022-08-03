@@ -1,0 +1,205 @@
+body{
+    background-color: blueviolet;
+}
+.titulo {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.subtitulo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 5px;
+}
+
+.foto1 {
+    grid-area: 1 / 1 / 3 / 2; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto2 { 
+    grid-area: 3 / 1 / 5 / 2; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/index2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto3 { 
+    grid-area: 5 / 1 / 7 / 2; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/index3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.texto1 { grid-area: 1 / 2 / 2 / 3; }
+.texto2 { grid-area: 2 / 2 / 3 / 3; }
+.texto3 { grid-area: 3 / 2 / 4 / 3; }
+.texto4 { grid-area: 4 / 2 / 5 / 3; }
+.texto5 { grid-area: 5 / 2 / 6 / 3; }
+.texto6 { grid-area: 6 / 2 / 7 / 3; } 
+.contenedor_fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 5px;
+    justify-items: center;
+}
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    width: 400px;
+    height: 600px;
+    background-image: url(/cosas/minitas/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div3 { 
+    grid-area: 1 / 3 / 2 / 4; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div4 { 
+    grid-area: 2 / 1 / 3 / 2; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div5 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div6 { 
+    grid-area: 2 / 3 / 3 / 4;
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div7 { 
+    grid-area: 3 / 1 / 4 / 2; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div8 { 
+    grid-area: 3 / 2 / 4 / 3;   
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div9 { 
+    grid-area: 3 / 3 / 4 / 4;  
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div10 { 
+    grid-area: 4 / 1 / 5 / 2;
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div11 { 
+    grid-area: 4 / 2 / 5 / 3;
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div12 { 
+    grid-area: 4 / 3 / 5 / 4; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div13 { 
+    grid-area: 5 / 1 / 6 / 2;
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div14 { 
+    grid-area: 5 / 2 / 6 / 3; 
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div15 { 
+    grid-area: 5 / 3 / 6 / 4;
+    width: 400px;
+    height: 400px;
+    background-image: url(/cosas/minitas/16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.tamanio {
+    width: 400px;
+    height: 600px;
+}
